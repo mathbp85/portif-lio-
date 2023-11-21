@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lange+="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="portifólio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" href="lufi gourdu.jpg" type="image/jpeg">
+    <title>Portiifólio</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <a href="https://github.com/mathbp85" target="_blank"><img src="guiti rubi.png" alt="logo" width="42px" height="42px"></a>
+            </div>
+            <div class="menu">
+                <nav class="nav-list">
+                    <a href="#home">Home</a>
+                    <a href="#projects":>Projetos</a>
+                    <a href="#contracts">Contrato</a>
+                </nav>
+         </div>   
+     </header>
+
+     <section id="home">
+        <div class="home-info">
+            <h2> Olá, sou Matheus</h2>
+            <span class="home-position">Estudante de programação</span>
+            <span class="home-resume">
+                tenho 11 anos
+                sou estudante de programação a mais de 4 anos,
+                estou no 6º ano do ensino fundamental II.
+                Eu amo jogar jogos e cria-los também,
+                eu estudo as linguagens Python, CSS, HTML, JavaScript.
+                (Isso é um trabalho para a Ctrl play :/ ) 
+            </span>
+
+            <button>
+                <a href="#contact">Contate-me</a>
+            </button>
+        </div>
+        <div class="home-img">
+            <img src="lufi gourdu.jpg" alt="Foto de peril">
+        </div>
+            
+     </section>
+
+     <section id="projects">
+        <h2>Projetos</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="project-img">
+                        <img src="boba espounga.webp" alt="Foto de um site">
+                    </div>
+                    <div class="project-info">
+                        <h2>To-Do-list</h2>
+                        <p>Uma lista usando HTML, CSS E JS</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/matheus.bperlini@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu email" required>
+
+            <textarea cols="30" rows="10" name="message"
+            placeholder="Digite sua mensagem" required></textarea>
+            
+            <button type="submit">ENVIAR</button>
+
+            <input type="hidden" name="_subject" value="Novo Contato">
+            <input type="text" name="_honey" style="display: none;">
+            <input type="hidden" name="_captcha" value="false">
+
+        </form>
+            <ul class="list-group list-group-flush">
+                <a href="https://github.com/mathbp85" target="_blank"></li class="list-group-item">GITHUB<br>mathbp85</li></a>
+                <li class="list-group-item">Email<br>matheus.bperlini@gmail.com</li>
+                <a href="https://www.roblox.com/users/1571987352/profile" target="_blank"></li class="list-group-item">Roblox<br>Rheavell</li></a>
+            </ul>
+
+
+    </section>
+    <br>
+    <br>
+    <footer>
+        copyright © 2023 Matheus B Perlini. Se roubar, eu vou invadir sua casa e puxar o pé da sua familia
+    </footer>
+
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="portifólio.js"></script>
+</body>
+</html>
